@@ -1,6 +1,6 @@
 body {
     font-family: 'Bubblegum Sans', cursive, sans-serif;
-    background-color: #d80085;
+    background-color: #f8b422;
     margin: 0;
     padding: 0;
     color: #000000;
@@ -8,10 +8,10 @@ body {
 
 /* Header */
 header {
-    border: 10px solid #ee0303;
+    border: 10px solid #fab216;
     text-align: center;
-    background: #9f27e4;
-    color: #fc007e;
+    background: #f7316c;
+    color: #f5f3f4;
     box-shadow: 0 0 20px 5px #fc007e;
     text-shadow: 1px 7px 3px rgba(0, 0, 0, 0.5);
     padding: 20px 0;
@@ -42,15 +42,16 @@ section {
 }
 
 #smoothie-image {
-    max-width: 100%; /* Reduce the size to 50% of its container */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Make the image a block element */
-    margin: 0 auto; /* Center the image horizontally */
-    border-radius: 8px; /* Keep the rounded corners */
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 8px; 
 }
 
 /* Button */
 button {
+    font-family: 'Bubblegum Sans', cursive, sans-serif;
     margin-top: 1em;
     background-color: #a523f0;
     color: #ffffff;
